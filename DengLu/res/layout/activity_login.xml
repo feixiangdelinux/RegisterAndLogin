@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="登录页面"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名" />
+
+        <EditText
+            android:id="@+id/userName_loginActivity_et"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码    " />
+
+        <EditText
+            android:id="@+id/passWord_loginActivity_et"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_loginActivity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/register_loginActivity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册" />
+
+</LinearLayout>
